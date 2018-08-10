@@ -24,7 +24,6 @@ public class DbSeeder implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 		Portfolio p1 = new Portfolio(
-
 						"Portfolio example 1",//name
 						"example model with tech stocks",//desc
 						10,//cP
@@ -40,7 +39,6 @@ public class DbSeeder implements CommandLineRunner {
 						)
 					);
 		Portfolio p2 = new Portfolio(
-
 				"Portfolio example 2",//name
 				"example model with misc stocks",//desc
 				5,//cP
@@ -55,7 +53,5 @@ public class DbSeeder implements CommandLineRunner {
 						new AssetAllocation("MCD", 35)
 				)
 			);
-		
-				
 	}
 }
