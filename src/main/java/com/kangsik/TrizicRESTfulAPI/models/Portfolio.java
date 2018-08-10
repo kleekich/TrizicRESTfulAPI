@@ -19,12 +19,10 @@ public class Portfolio {
     private String createdOn;
     private String modelType;
     private String rebalanceFrequency;
-    @Id
     private String advisorId;
     private List<AssetAllocation> assetAllocations;
 
-    public Portfolio(String id, String name, String description, int cashHoldingPercentage, int driftPercentage, String createdOn, String modelType, String rebalanceFrequency, String advisorId, List<AssetAllocation> assetAllocations) {
-        this.id = id;
+    public Portfolio(String name, String description, int cashHoldingPercentage, int driftPercentage, String createdOn, String modelType, String rebalanceFrequency, String advisorId, List<AssetAllocation> assetAllocations) {
         this.name = name;
         this.description = description;
         this.cashHoldingPercentage = cashHoldingPercentage;
