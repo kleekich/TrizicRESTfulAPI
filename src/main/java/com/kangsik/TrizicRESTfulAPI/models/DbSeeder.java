@@ -55,6 +55,7 @@ public class DbSeeder implements CommandLineRunner {
 						new AssetAllocation("MCD", 35)
 				)
 			);
+		
 				
 	}
 }
