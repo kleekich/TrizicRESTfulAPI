@@ -1,6 +1,10 @@
-package com.kangsik.trizicRESTfulAPI.model;
+package com.kangsik.TrizicRESTfulAPI.models;
 
 import java.util.List;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+ 
 
 @Document(collection = "Portfolios")
 class PortfolioList {

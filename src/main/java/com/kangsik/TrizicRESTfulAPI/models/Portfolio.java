@@ -1,4 +1,5 @@
-package com.kangsik.trizicRESTfulAPI.model;
+package com.kangsik.TrizicRESTfulAPI.models;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.IndexDirection;
 import org.springframework.data.mongodb.core.index.Indexed;

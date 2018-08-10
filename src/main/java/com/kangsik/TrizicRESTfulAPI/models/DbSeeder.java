@@ -1,4 +1,4 @@
-package com.kangsik.trizicRESTfulAPI.model;
+package com.kangsik.TrizicRESTfulAPI.models;
 
 import java.util.*;
 
