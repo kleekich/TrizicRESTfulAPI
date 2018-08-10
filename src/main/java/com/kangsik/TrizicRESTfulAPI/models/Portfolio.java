@@ -19,6 +19,7 @@ public class Portfolio {
     private String createdOn;
     private String modelType;
     private String rebalanceFrequency;
+    @Id
     private String advisorId;
     private List<AssetAllocation> assetAllocations;
 
